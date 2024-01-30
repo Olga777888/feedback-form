@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Формы</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-at">
+    <form class="form" id="forma" action="/yandex/" method="POST">
+        <div class="form__input__box"></div>
+        <label>
+          Ваше имя:
+          <input class="form__input-inp" type="text" name="name" id="name" placeholder="olga Zelezhnyak" required autofocus>
+        </label>
+        <div class="form__input__box">
+        <label>
+          Почта:
+          <input class="form__input-inp" type="email" name="email" id="email" placeholder="olya@yandex.ru" required>
+        </label>
+        <div class="form__input__box">
+        <label>
+          Возраст:
+          <input class="form__input-inp" type="number" name="age" required>
+        </label>
+        <div class="form__input__box">
+        <label>
+          Профессия:
+          <select name="specialization" required>
+            <option value="engineer" selected>Инженер</option>
+            <option value="scientist">Учёный</option>
+            <option value="psychologist">Психолог</option>
+            <option value="other">Другая</option>
+          </select>
+        </label>
+        <div class="form__input__box">
+        <label>
+          Я работала в yandex
+          <input class="form__input-inp" type="checkbox" name="nasa-experience" value="1">
+        </label>
+        <div class="form__input__box">
+        <label>
+          Фото:
+          <input class="form__input-inp" type="file" accept="image/jpeg" name="photo" required>
+        </label>
+        <div class="form__input__box">
+        <button  class="form__btn" type="submit">Отправить заявку</button>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+     
+    <script src="script.js"></script>
+</body>
+</html>
